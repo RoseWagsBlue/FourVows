@@ -1,0 +1,88 @@
+%    printable Heart Sutra for Tracing
+
+\documentclass[letterpaper]{article}
+\usepackage[letterpaper, margin=0.9in]{geometry}
+\usepackage{xeCJK}
+\usepackage{xcolor}
+%\usepackage{fontspec}
+\usepackage{anyfontsize}
+\usepackage{hyperref}
+%\usepackage{array}
+%\usepackage{longtable}
+\usepackage{multicol}
+
+
+
+\hypersetup {
+ pdfauthor= Rose DiFonzo,
+ pdftitle={Four Bodhisattva Vows for Tracing},
+ pdfsubject={Buddhism, kanji, 四弘誓願  },
+ pdfkeywords={kanji, japan, wanikani, Bodhisattva, Buddhism, Buddha, 四弘誓願 },
+ }
+ 
+
+ \setCJKmainfont{KanjiStrokeOrders}
+ \setCJKsansfont{Meiryo}
+  
+  \newcommand{\stick}{\scalebox{-1}[1]{\rotatebox[origin=tr]{90}{ー}\hspace{0.75em}}}
+  
+ \newcommand{\heartblock}[4]
+{
+\CJKfamily{Script=CJK}
+\fontsize{12}{12}
+\textcolor{black}{#1 #3\\}
+\fontsize{70}{70}
+\textcolor{lightgray}{#2\\}
+%\stepcounter{mycounter}
+\fontsize{08}{08}
+%%\noindent
+\textcolor{black}{#4}
+
+}
+
+\begin{document}
+四弘誓願 Four Bodhisattva Vows
+\begin{multicols}{4}
+\RLmulticolcolumns
+\heartblock{しゅ}{衆}{many}{}
+\heartblock{じょう}{生}{life}{ 衆生 all living things}
+\heartblock{む}{無}{nothing}{}
+\heartblock{へん}{邊}{boundary}{ 邊 is now 辺 .  無辺 limitless}
+\heartblock{せい}{誓}{vow}{}
+\heartblock{がん}{願}{vow}{誓願 vow}
+\heartblock{ど}{度}{degrees}{paramita, save}
+\heartblock{\\}{}{}{}
+
+\heartblock{ぽん}{煩}{anxiety}{}
+\heartblock{のう}{悩}{trouble}{煩悩 three poisons }
+\heartblock{む}{無}{no}{}
+\heartblock{じん}{儘}{exhaust}{simplifies to 盡,  侭,  尽}
+\heartblock{せい}{誓}{}{}
+\heartblock{がん}{願}{}{}
+\heartblock{だん}{斷}{quit}{simplifies to 断}
+\heartblock{\\}{}{}{}
+
+\heartblock{ほう}{法}{darma}{}
+\heartblock{もん}{門}{gate}{}
+\heartblock{む}{無}{no}{}
+\heartblock{りょう}{量}{quantity}{無量 immeasurable}
+\heartblock{せい}{誓}{}{}
+\heartblock{がん}{願}{}{}
+\heartblock{がく}{學}{learn}{simplifies to 学}
+\heartblock{\\}{}{}{}
+
+
+
+\heartblock{ぶつ}{佛}{Buddha}{}
+\heartblock{どう}{道}{path}{}
+\heartblock{む}{無}{no}{}
+\heartblock{じょう}{上}{above}{無上　best}
+\heartblock{せい}{誓}{}{}
+\heartblock{がん}{願}{}{}
+\heartblock{じょう}{成}{become}{}
+
+
+
+
+\end{multicols}
+\end{document} 
